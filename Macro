@@ -1,0 +1,7 @@
+getgenv().EggHub = {
+    Map = "SINGULARITY",
+    Difficulty = "Expert",
+    AutoAbility = false,
+    MacroUrl = ""
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minh597/Egg/refs/heads/main/tdxmacro.lua"))()
