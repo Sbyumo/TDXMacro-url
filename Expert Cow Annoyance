@@ -1,10 +1,10 @@
-place(1, "Shotgunner", Vector3.new(-3.310,28.080,-135.25), 0, 212)
+place(1, "Shotgunner", Vector3.new(-2.990,28.080,-134.440), 0, 212)
 place(2, "Shotgunner", Vector3.new(-11.690,28.120,-133.090), 0, 212)
 place(3, "Farm", Vector3.new(-48.240,28.080,-88.720), 0, 375)
 place(4, "Farm", Vector3.new(-45.840,28.080,-82.050), 0, 375)
 upgrade(1, 2, 1, 65)
 upgrade(2, 2, 1, 65)
-upgrade(3, 1, 1, 50)w
+upgrade(3, 1, 1, 50)
 upgrade(4, 1, 1, 50)
 place(5, "Farm", Vector3.new(-38.950,28.080,-78.880), 0, 375)
 upgrade(5, 1, 1, 50)
