@@ -2,6 +2,6 @@ getgenv().EggHub = {
     Map = "SINGULARITY",
     Difficulty = "Expert",
     AutoAbility = false,
-    MacroUrl = ""
+    MacroUrl = "https://raw.githubusercontent.com/Sbyumo/TDXMacro-url/refs/heads/main/TDX%20SINGULARITY%20Expert%20XWM%20Turret%20Armored%20Factory%20War%20Machine%20Factory(optional)%20Oil%20Derreck(optional)"
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minh597/Egg/refs/heads/main/tdxmacro.lua"))()
