@@ -1,1 +1,3 @@
-
+place(1, "Oil Derreck", Vector3.new(), 0, 500)
+upgrade(1, 1, 1, 400)
+upgrade(1, 1, 1, 1500)
