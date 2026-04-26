@@ -25,7 +25,7 @@ local FOVring = Drawing.new("Circle")
 FOVring.Visible = true
 FOVring.Thickness = 1
 FOVring.Radius = fov
-FOVring.Transparency = 0.5
+FOVring.Transparency = 0.8
 FOVring.Color = Color3.fromRGB(255, 128, 128)
 FOVring.Position = workspace.CurrentCamera.ViewportSize / 2
 
@@ -110,7 +110,7 @@ loop = RunService.RenderStepped:Connect(function()
                 handleToggle()
             end
         else
-            toggleState = UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)
+            toggleState = UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton3)
         end
 
         if toggleState then
