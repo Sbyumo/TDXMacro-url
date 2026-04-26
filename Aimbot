@@ -1,4 +1,4 @@
-local teamCheck = false
+local teamCheck = true
 local fov = 120
 local smoothing = 1.067
 local predictionFactor = 0
