@@ -7,7 +7,7 @@ local lockPart = "HumanoidRootPart"
 local AutoPrediction = false
 local AutopredictFactor = 0
 
-local Toggle = false
+local Toggle = true
 local ToggleKey = Enum.KeyCode.E
 
 local RunService = game:GetService("RunService")
