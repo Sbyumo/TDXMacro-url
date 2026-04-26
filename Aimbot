@@ -1,4 +1,4 @@
-local teamCheck = true
+local teamCheck = false
 local fov = 120
 local smoothing = 1.067
 local predictionFactor = 0
@@ -7,7 +7,7 @@ local lockPart = "HumanoidRootPart"
 local AutoPrediction = false
 local AutopredictFactor = 0
 
-local Toggle = true
+local Toggle = false
 local ToggleKey = Enum.KeyCode.E
 
 local RunService = game:GetService("RunService")
@@ -25,7 +25,7 @@ local FOVring = Drawing.new("Circle")
 FOVring.Visible = true
 FOVring.Thickness = 1
 FOVring.Radius = fov
-FOVring.Transparency = 0.8
+FOVring.Transparency = 0.5
 FOVring.Color = Color3.fromRGB(255, 128, 128)
 FOVring.Position = workspace.CurrentCamera.ViewportSize / 2
 
@@ -110,7 +110,7 @@ loop = RunService.RenderStepped:Connect(function()
                 handleToggle()
             end
         else
-            toggleState = UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)
+            toggleState = UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton5)
         end
 
         if toggleState then
